@@ -13,4 +13,5 @@ $ /Users/testuser/.ssh/id_rsa_gcp
 $ pbcopy < ~/.ssh/id_rsa_gcp.pub ( on Mac )
 $ nano ~ ./ssh/authorized-keys and save ( on vm ) 
 $ ssh -i path-to-private-key username@external-ip
+$ ssh -i ~/.ssh/id_rsa_samp aaa@bbb 
 ```
